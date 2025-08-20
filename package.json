@@ -1,0 +1,18 @@
+{
+  "name": "ashdubey-portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "astro build && touch dist/.nojekyll && echo 'ashdubey.is-a.dev' > dist/CNAME"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^5.1.5",
+    "astro": "^4.16.16",
+    "tailwindcss": "^3.4.17"
+  }
+}
