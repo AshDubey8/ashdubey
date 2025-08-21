@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/Layout.astro
+layout: ../../layouts/BlogPost.astro
 title: "Video Streaming with Capped CRF: The Complete Guide"
 description: "How I got this article to rank #1 on Google and drove 40% traffic increase"
 date: "2025-01-15"
@@ -7,7 +7,7 @@ date: "2025-01-15"
 
 # Video Streaming with Capped CRF: The Complete Guide
 
-*This article ranks #1 on Google for "capped CRF video streaming" and drove a 40% increase in organic traffic to FastPix's documentation.*
+*This article ranks #1 on Google for "capped CRF video streaming".*
 
 ## Why This Content Worked
 

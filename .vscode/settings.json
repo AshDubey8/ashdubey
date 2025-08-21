@@ -1,0 +1,29 @@
+{
+  "css.validate": false,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.validate": false,
+  "scss.lint.unknownAtRules": "ignore",
+  "less.validate": false,
+  "less.lint.unknownAtRules": "ignore",
+  "tailwindCSS.includeLanguages": {
+    "astro": "html",
+    "html": "html",
+    "css": "css"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["class:list=\\{([^}]*)\\}", "'([^']*)'"],
+    ["class:list=\\{([^}]*)\\}", "\"([^\"]*)\""],
+    ["class:list=\\{([^}]*)\\}", "`([^`]*)`"],
+    ["class=\"([^\"]*)", "([^\"]*?)"],
+    ["class='([^']*)", "([^']*?)"]
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "emmet.includeLanguages": {
+    "astro": "html"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
