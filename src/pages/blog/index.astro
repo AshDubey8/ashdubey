@@ -1,0 +1,34 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const posts = await Astro.glob('./*.md');
+const sortedPosts = posts.sort((a, b) => 
+  new Date(b.frontmatter.date).valueOf() - new Date(a.frontmatter.date).valueOf()
+);
+---
+
+<Layout title="Blog - Ashuthosh Dubey">
+  <main class="animate-in">
+    <header class="mb-8">
+      <a href="/ashdubey/" class="text-sm text-gray-600 hover:text-gray-900 mb-4 inline-block">← Home</a>
+      <h1 class="text-2xl font-bold mb-2">Blog</h1>
+      <p class="text-gray-600">Technical content strategy, SEO insights, and developer guides</p>
+    </header>
+    
+    <div class="space-y-6">
+      {sortedPosts.map(post => (
+        <article class="pb-6 border-b last:border-0">
+          <a href={post.url} class="block group">
+            <h2 class="font-medium text-lg group-hover:text-gray-600 mb-1">
+              {post.frontmatter.title}
+            </h2>
+            <p class="text-sm text-gray-600 mb-2">{post.frontmatter.description}</p>
+            <div class="text-xs text-gray-500">
+              <time>{post.frontmatter.date}</time>
+              {post.frontmatter.readTime && <span> · {post.frontmatter.readTime} read</span>}
+            </div>
+          </a>
+        </article>
+      ))}
+    </div>
+  </main>
+</Layout>

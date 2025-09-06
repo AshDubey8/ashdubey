@@ -1,0 +1,62 @@
+---
+import '../styles/global.css';
+const { frontmatter } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={frontmatter.description} />
+  <link rel="icon" type="image/svg+xml" href="/ashdubey/favicon.svg" />
+  <title>{frontmatter.title} - Ashuthosh Dubey</title>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+  <div class="min-h-screen">
+    <!-- Navigation -->
+    <nav class="border-b border-gray-200">
+      <div class="max-w-4xl mx-auto px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a href="/ashdubey/" class="font-semibold text-gray-900 hover:text-gray-600">
+            Ashuthosh Dubey
+          </a>
+          <a href="/ashdubey/blog" class="text-sm text-gray-600 hover:text-gray-900">
+            ← Back to Blog
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Article -->
+    <article class="max-w-4xl mx-auto px-6">
+      <!-- Header -->
+      <header class="py-16 border-b border-gray-100">
+        <div class="max-w-3xl">
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 mb-4">
+            {frontmatter.title}
+          </h1>
+          <p class="text-xl text-gray-600 leading-relaxed mb-6">
+            {frontmatter.description}
+          </p>
+          <div class="flex items-center text-sm text-gray-500">
+            <time>{frontmatter.date}</time>
+            {frontmatter.readTime && (
+              <>
+                <span class="mx-2">·</span>
+                <span>{frontmatter.readTime}</span>
+              </>
+            )}
+          </div>
+        </div>
+      </header>
+
+      <!-- Content -->
+      <div class="py-12">
+        <div class="blog-content max-w-none">
+          <slot />
+        </div>
+      </div>
+    </article>
+  </div>
+</body>
+</html>
