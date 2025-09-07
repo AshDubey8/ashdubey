@@ -3,7 +3,6 @@ import tailwind from '@astrojs/tailwind';
 import mdx from '@astrojs/mdx';
 
 export default defineConfig({
-  site: 'https://ashdubey8.github.io',
-  base: '/ashdubey',
+  site: 'https://ashdubey.is-a.dev',
   integrations: [tailwind(), mdx()],
 });
