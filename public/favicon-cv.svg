@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#000"/>
+  <rect x="15" y="10" width="70" height="85" fill="#fff"/>
+  <path d="M75 10 L85 10 L85 20 L75 20 Z" fill="#000"/>
+  
+  <!-- Person icon -->
+  <circle cx="50" cy="30" r="8" fill="#000"/>
+  <path d="M35 55 Q35 45 50 45 Q65 45 65 55 L65 60 L35 60 Z" fill="#000"/>
+  
+  <!-- Text lines -->
+  <rect x="25" y="70" width="50" height="3" fill="#000"/>
+  <rect x="25" y="77" width="50" height="3" fill="#000"/>
+  <rect x="25" y="84" width="20" height="3" fill="#000"/>
+</svg>
