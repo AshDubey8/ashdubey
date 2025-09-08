@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPost.astro
 title: "Video Streaming with Capped CRF: A Technical Deep Dive"
 description: "Learn how capped CRF video streaming optimizes quality and bandwidth. Complete guide with FFmpeg examples and real-world implementation."
-date: "2024-01-15"
+date: "2025-09-06"
 readTime: "8 min read"
 ---
 

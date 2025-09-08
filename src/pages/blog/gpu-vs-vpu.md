@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPost.astro
 title: "GPUs vs VPUs for Video Processing: A Technical Comparison"
 description: "Deep dive into GPU and VPU architectures for video streaming. Learn when to use each, performance metrics, and real-world implementation strategies."
-date: "2024-02-10"
+date: "2025-09-07"
 readTime: "10 min read"
 ---
 
