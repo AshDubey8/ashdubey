@@ -1,12 +1,12 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "Video Streaming with Capped CRF: A Technical Deep Dive"
+title: "Video Streaming with Capped CRF Technical Deep Dive"
 description: "Learn how capped CRF video streaming optimizes quality and bandwidth. Complete guide with FFmpeg examples and real-world implementation."
 date: "2025-09-06"
 readTime: "8 min read"
 ---
 
-# Video Streaming with Capped CRF: Balancing Quality and Bandwidth
+# Video Streaming with Capped CRF for Balancing Quality and Bandwidth
 
 *This technical guide helped achieve #1 Google ranking for "capped CRF video streaming"*
 
@@ -36,7 +36,7 @@ The rate control algorithm manages these dynamic adjustments. It decides how to 
 
 A PID (Proportional-Integral-Derivative) controller acts as the feedback mechanism, continuously fine-tuning the CRF value based on historical, current, and predicted bitrate trends.
 
-## CRF Values: Finding the Sweet Spot
+## CRF Values and Finding the Sweet Spot
 
 CRF values range from 0 to 51. Lower numbers mean better quality but larger files. Here's what works in production:
 
