@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "Capped CRF Video Streaming: Why Your Bandwidth Spikes Are Killing Quality"
+title: "Why Your Bandwidth Spikes Are Killing Quality"
 description: "How capped CRF encoding solved our video streaming bandwidth problems. A deep technical dive with production FFmpeg configurations."
 date: "2025-09-06"
 readTime: "12 min read"

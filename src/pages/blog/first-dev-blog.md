@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: "What I Learned Writing My First Developer-Facing Blog"
+title: "What I Learned Writing My First Blog"
 description: "Lessons from writing my first technical blog post about broadcasting vs streaming, from topic selection to hitting publish."
 pubDate: "Sep 08 2025"
 ---
