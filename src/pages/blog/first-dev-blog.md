@@ -2,10 +2,11 @@
 layout: ../../layouts/BlogPost.astro
 title: "What I Learned Writing My First Blog"
 description: "Lessons from writing my first technical blog post about broadcasting vs streaming, from topic selection to hitting publish."
-pubDate: "Sep 08 2025"
+date: "2025-09-08"
+readTime: "5 min read"
 ---
 
-# What I Learned Writing My First Developer-Facing Blog
+# What I Learned Writing My First Blog
 
 A few months ago I decided to write my first developer-facing blog. I had been reading technical posts for years, but I had never tried putting my own thoughts out there. The motivation was straightforward: I've learned so much from other developers who take the time to share, and I wanted to give something back.
 
